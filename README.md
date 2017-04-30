@@ -60,7 +60,7 @@ make
 - fusermount -u ./myMountpathandlocation
 - PATH=$PATH:/home/whereveryouinstalleds3fs
 - which s3fs
-- s3fs thebucketnameyouhave ~/pathtoyourmountpoint -o passwd_fle=~/.passwd-s3fs -o umask=0000
+- s3fs thebucketnameyouhave ~ /pathtoyourmountpoint -o passwd_fle=~/.passwd-s3fs -o umask=0000
 
 #### Making the passwd file: 
 
